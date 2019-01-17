@@ -27,7 +27,7 @@ public class RetrofitClient {
     }
 
     public static RetrofitApiInterface getServiceClass(Context mContext) {
-        return RetrofitClient.getRetrofit(mContext,BASE_URL).create(RetrofitApiInterface.class);
+        return RetrofitClient.getRetrofit(mContext, BASE_URL).create(RetrofitApiInterface.class);
     }
 
     /*public static OkHttpClient getRequestHeader(Context mContext) {
